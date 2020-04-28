@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+// use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Route::get('pejuang/login', function () {
+//     return views('login')
+// });
+// Route::get('/register', 'HomeController@register');
+
+Route::get('/login','HomeController@login');
+Route::get('/register','HomeController@register');
+Route::get('/','HomeController@home')->name('home');
+
+include("agnes.php");
+include("kaka.php");
+include("rifaa.php");
