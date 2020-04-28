@@ -3,31 +3,28 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\Controller;
-
 
 class HomeController extends Controller
 {
-    public function login()
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
+
+    
+    public function index()
     {
-
-    	return view('login');
-
+        return view('app/home/index');
     }
 
-    public function register()
+    public function deskripsi()
     {
-
-    	return view('register');
-
+        return view('app/home/deskripsi');
     }
-
- 	public function home()
-    {
-
-    	return view('app/home/index');
-
-    }
-       
 }

@@ -17,15 +17,16 @@
 //     return view('welcome');
 // });
 
-// Route::get('pejuang/login', function () {
-//     return views('login')
-// });
-// Route::get('/register', 'HomeController@register');
-
-Route::get('/login','HomeController@login');
-Route::get('/register','HomeController@register');
-Route::get('/','HomeController@home')->name('home');
+// Route::get('/login','HomeController@login');
+// Route::get('/register','HomeController@register');
+Route::get('/','HomeController@index')->name('home');
 
 include("agnes.php");
 include("kaka.php");
 include("rifaa.php");
+
+// Auth::routes();
+
+
+
+
