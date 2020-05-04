@@ -44,55 +44,61 @@
             <div class="card-produk">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                               <img class="card-img-top" src="public/img/lidahmertua.jpg" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px;"><br>
-                                <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                <h5 class="harga">RP. 10.000.000</h5>
-                                <label class="alamat" for="alamat">Jakarta Utara</label>
-                                <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                        <a href="{{url('/produk')}}">
+                            <div class="card">
+                                <div class="container">
+                                   <img class="card-img-top" src="public/img/lidahmertua.jpg" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px;"><br>
+                                    <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
+                                    <h5 class="harga">RP. 10.000.000</h5>
+                                    <label class="alamat" for="alamat">Jakarta Utara</label>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%;margin-top:10px;margin-bottom: 20px;"><br>
-                                <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                <h5 class="harga">RP. 10.000.000</h5>
-                                <label class="alamat" for="alamat">Jakarta Utara</label>
-                                 <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                        <a href="{{url('/produk')}}">
+                            <div class="card">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%;margin-top:10px;margin-bottom: 20px;"><br>
+                                    <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
+                                    <h5 class="harga">RP. 10.000.000</h5>
+                                    <label class="alamat" for="alamat">Jakarta Utara</label>
+                                     <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
-                            </div>
-                        </div> 
+                            </div> 
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                               <img class="card-img-top" src="{{asset('public/img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                <h5 class="harga">RP. 10.000.000</h5>
-                                <label class="alamat" for="alamat">Jakarta Utara</label>
-                                 <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                        <a href="{{url('/produk')}}">
+                            <div class="card">
+                                <div class="container">
+                                   <img class="card-img-top" src="{{asset('public/img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
+                                    <h5 class="harga">RP. 10.000.000</h5>
+                                    <label class="alamat" for="alamat">Jakarta Utara</label>
+                                     <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -103,52 +109,58 @@
             <div class="card-produk">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Sukiman Rivero</span><br>
-                                <label class="alamat" for="alamat">Depok</label>
-                                <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
-                                </div> 
+                        <a href="{{url('/tukang')}}">
+                            <div class="card">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Sukiman Rivero</span><br>
+                                    <label class="alamat" for="alamat">Depok</label>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div> 
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Sukiman Rivero</span><br>
-                                <label class="alamat" for="alamat">Depok</label>
-                                <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                            <a href="{{url('/tukang')}}">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Sukiman Rivero</span><br>
+                                    <label class="alamat" for="alamat">Depok</label>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div> 
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Sukiman Rivero</span><br>
-                                <label class="alamat" for="alamat">Depok</label>
-                                 <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                        <a href="{{url('/tukang')}}">
+                            <div class="card">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Sukiman Rivero</span><br>
+                                    <label class="alamat" for="alamat">Depok</label>
+                                     <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -159,52 +171,58 @@
             <div class="card-produk">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Sukiman Rivero</span><br>
-                                <label class="alamat" for="alamat">Depok</label>
-                                 <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>(30)
+                        <a href="{{url('/arsitektur')}}">
+                            <div class="card">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Sukiman Rivero</span><br>
+                                    <label class="alamat" for="alamat">Depok</label>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>(30)
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Sukiman Rivero</span><br>
-                                <label class="alamat" for="alamat">Depok</label>
-                                 <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                        <a href="{{url('/arsitektur')}}">
+                            <div class="card">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Sukiman Rivero</span><br>
+                                    <label class="alamat" for="alamat">Depok</label>
+                                     <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
-                            </div>
-                        </div> 
+                            </div> 
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                <span class="nama-produk">Sukiman Rivero</span><br>
-                                <label class="alamat" for="alamat">Depok</label>
-                                <div class="rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span> (30)
+                        <a href="{{url('/arsitektur')}}">
+                            <div class="card">
+                                <div class="container">
+                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <span class="nama-produk">Sukiman Rivero</span><br>
+                                    <label class="alamat" for="alamat">Depok</label>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span> (30)
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
