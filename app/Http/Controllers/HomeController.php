@@ -23,8 +23,18 @@ class HomeController extends Controller
         return view('app/home/index');
     }
 
-    public function deskripsi()
+    public function produk()
     {
-        return view('app/home/deskripsi');
+        return view('app/deskripsi/produk');
+    }
+
+    public function arsitektur()
+    {
+        return view('app/deskripsi/arsitektur');
+    }
+
+    public function tukang()
+    {
+        return view('app/deskripsi/kebun_taman');
     }
 }
