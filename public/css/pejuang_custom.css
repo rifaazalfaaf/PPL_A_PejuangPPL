@@ -37,9 +37,6 @@
 .nama-produk, .deskripsi{
     color:  #548611;
 }
-.bitbit-jumbotron{
-    background-image: url(img/jumbotron.png);
-}
 .background-jumbotron{
     background-color: #a7e421;
 }
@@ -199,7 +196,7 @@
 /*untuk footer*/
 .footer-style{
     width: 1519px;
-    height: 270px;
+    height: 220px;
     background-color: #e4e4e4;
 }
 
