@@ -46,8 +46,102 @@
     margin-bottom: 10px;  
     color: #707070; 
 }
+
+/*digunakan seluruh*/
+.bibit-card{
+    background-color: #ffffff;
+}
+
+
+/*untuk ratig*/
 .rating{
     margin-bottom: 10px;  
+}
+.nilai_rating{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.Ulasan {
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
+}
+.bitbit-profile-photo{
+    width: 51.3px;
+    height: 50px;
+}
+
+/*untuk jasa dan produk*/
+.gambar-tukang {
+    width: 300px;
+    height: 300.8px;
+}
+
+.deskripsi_tukang{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    text-align: justify;
+}
+.mahakarya{
+    width: 160px;
+    height: 160px;
+}
+
+/*untuk alamat*/
+.alamat_deskripsi {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #548611;
+}
+
+/*untuk harga*/
+.harga {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.jumlah_harga{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
 }
 
 /*untuk footer*/
