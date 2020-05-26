@@ -95,8 +95,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </div>
