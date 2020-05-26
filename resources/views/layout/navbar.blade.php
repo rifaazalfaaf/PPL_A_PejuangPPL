@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm navbar-bitbit">
+<div class="bitbit-navbar navbar navbar-expand-sm navbar-bitbit">
     <div class="container">
          <!-- Brand/logo -->
         <a class="navbar-brand navbar-brand-bitbit col-md-1" href="/">BitBit</a>
@@ -15,8 +15,8 @@
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-               <a class="nav-link" href="#">
-                    <i class="fa fa-shopping-cart fa-2x" href="#"></i>
+               <a class="nav-link" href="{{url('/keranjang')}}">
+                    <i class="fa fa-shopping-cart fa-2x" href=""></i>
                 </a>
             </li>
             <li class="nav-item">
