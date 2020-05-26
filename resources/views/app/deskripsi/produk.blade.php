@@ -99,16 +99,17 @@
                                 <input type="radio" class="form-check-input" id="radio2" name="optradio" value="ambil-di-toko">JNT Express
                             </label>
                         </div>  
-                    </form>
+                    
                 </div>
                 <div align="center">
-                    <button class="col-md-5">
+                    <button type="submit" class="btn btn-primary col-md-5">
                         Keranjang
                     </button>
-                    <button class="col-md-5">
+                    <button type="submit" class="btn btn-primary col-md-5">
                         Beli
-                    </button>
+                    </button></form>
                 </div>
+
             </div>
         </div>
         <div class="card-block">

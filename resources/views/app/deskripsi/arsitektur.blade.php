@@ -1,5 +1,5 @@
 @extends('layout.default')
-@section('title','Deskripsi Produk')
+@section('title','Deskripsi Arsitektur Taman')
 
 @section('styles')
  
@@ -14,7 +14,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{asset('public/img/tukangkebun.png')}}" alt="">
+                        <img src="img/tukangkebun.png" alt="">
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-12">
@@ -34,7 +34,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="{{asset('public/img/tukangkebun.png')}}" alt="">
+                                    <img src="{{asset('img/tukangkebun.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -55,9 +55,11 @@
                         <span class="fa fa-star"></span>(30)
                     </div>
                 </div>
-                <button>
-                    Gunakan Jasa
-                </button>
+                <div align="center">
+                    <button type="submit" class="btn btn-primary col-md-12">
+                        Gunakan Jasa
+                    </button></form>
+                </div>
             </div>
         </div>
         <div class="card-block">
