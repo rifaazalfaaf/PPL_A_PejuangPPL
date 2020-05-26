@@ -12,47 +12,49 @@
                 <div class="card bitbit-card rounded-0 border border-light">
                     <div class="container my-3">
                         <div class="row pl-3">
-                            <div class="col-md-12">
-                                <h3>Sukiman Rivero</h3>
+                            <div class="col-md-12 mb-3">
+                                <h3 class="nama-produk">Lidah Mertua / Sansiviera lidah mertua golden</h3>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="{{asset('public/img/tukangkebun.png')}}" alt="">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="col-md-12">
-                                        <tr>
-                                            <td>Harga</td>
-                                            <td>10.000.000</td>
+                            <div class="col-md-5">
+                                <img class="gambar-tukang rounded" src="{{asset('img/lidahmertua.jpg')}}" alt="">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="col-md-12">
+                                    <table>
+                                        <tr class="border-bottom">
+                                            <td class="harga">Harga</td>
+                                            <td class="jumlah_harga">10.000.000</td>
                                         </tr>
-                                        <tr>
-                                            <td>Jumlah</td>
-                                            <td>2</td>
+                                        <tr class="border-bottom">
+                                            <td class="harga">Jumlah</td>
+                                            <td class="jumlah-produk">2</td>
                                         </tr>
-                                        <tr>
-                                            <td>Metode Pengiriman</td>
+                                        <tr class="border-bottom">
+                                            <td class="harga">Metode Pengiriman</td>
                                             <td> 
                                                 <form action="/action_page.php">
                                                     <div class="form-check">
-                                                        <label class="form-check-label" for="radio1">
+                                                        <label class="harga form-check-label" for="radio1">
                                                             <input type="radio" class="form-check-input" id="radio1" name="optradio" value="pengiriman-langsung" checked>Pengiriman Langsung
                                                         </label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <label class="form-check-label" for="radio2">
+                                                        <label class="harga form-check-label" for="radio2">
                                                             <input type="radio" class="form-check-input" id="radio2" name="optradio" value="ambil-di-toko">Ambil di Toko
                                                         </label>
                                                     </div>     
                                                 </form>
                                             </td>
                                         </tr>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <p>
-                                            Lidah mertua atau mother in law;s tongue. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        </p>
-                                    </div>
-                                   
+                                    </table>
+                                </div>
+                                <div class="col-md-12 deskripsi_tukang">
+                                    <p>
+                                        Lidah mertua atau mother in law’s tongue (Sansevieria trifasciata) merupakan tanaman perennial yang berdiri tegak terlihat kokoh, dengan daun berwarna hijau gelap, pinggir daun berwarna kuning. Lidah mertua banyak ditanam di daerah perkotaan karena sangat bagus menyerap polusi atau racun berbahaya yang terkandung dalam udara. Tanaman ini termasuk tanaman indoor pembersih udara paling ampuh karena kemampuannya dalam menyerap zat-zat berbahaya sudah dibuktikan sangat efektif, terutama asap rokok.
+                                    </p>
+                                    <p>
+                                        Ciri-ciri lidah mertua adalah bentuknya mirip ular (sehingga disebut snake plant di luar negeri – namun ada juga tanaman lain yang disebut snake plant selain lidah mertua yaitu Nassauvia serpens), tajam pada ujungnya (sehingga disebut mother-in-law’s tongue atau lidah mertua), terlihat mirip pedang (sehingga disebut Saint George’s Sword di Brazil). Di Jepang disebut tiger’s tail, di China disebut tiger’s tail orchid, di Turki disebut Pasha sword.    
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -62,58 +64,60 @@
 
             <div class="col-md-4">
                 <div class="card bitbit-card rounded-0 border border-light">
-                    <div class="my-3">
+                    <div class="my-3 pl-3">
                         <div class="card-title">
-                            <h5><small>Dijual dan disediakan oleh</small></h5>
-                            <h3>Toko Bunga Kasih</h3>
+                            <h5 class="alamat_pengiriman">Dijual dan disediakan oleh</h5>
+                            <h3 class="nama_toko">Toko Bunga Kasih</h3>
                         </div>
                         <div class="rating">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>(30)
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span> 
+                            <span class="nilai_rating">(10)</span> 
                         </div>
-                        <div class="card card-title">
-                            <h5><small>Jakarta Utara</small></h5>
+                        <div class="card-title">
+                            <h5 class="alamat_pengiriman">Jakarta Utara</h5>
                         </div>
                     </div>
                 </div>
-                <div class="card card bitbit-card rounded-0 border border-light">
-                    <div class="card-title">
-                        <h4>Metode Pengiriman</h4>
-                        <h4>Lokasi</h4>
-                        <h4>Sayang, Jatinangor, Kab. Sumedang, Jawa Barat Indonesia</h4>
+                <div class="my-3 card card bitbit-card rounded-0 border border-light">
+                    <div class="p-3">
+                        <div class="card-title">
+                            <h4 class="metode_pengiriman">Metode Pengiriman</h4>
+                            <h4 class="alamat_pengiriman">Lokasi</h4>
+                            <h4 class="alamat_pengiriman">Sayang, Jatinangor, Kab. Sumedang, Jawa Barat Indonesia</h4>
+                        </div>
+                        <hr>
+                        <form class="" action="/action_page.php">
+                            <div class="form-check">
+                                <label class="form-check-label alamat_pengiriman" for="radio1">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="pengiriman-langsung">JNE Standar
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label alamat_pengiriman" for="radio2">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="ambil-di-toko">JNE Express
+                                </label>
+                            </div>     
+                            <div class="form-check">
+                                <label class="form-check-label alamat_pengiriman" for="radio1">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="pengiriman-langsung">JNT Standar
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label alamat_pengiriman" for="radio2">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="ambil-di-toko">JNT Express
+                                </label>
+                            </div>  
                     </div>
-                    <hr>
-                    <form action="/action_page.php">
-                        <div class="form-check">
-                            <label class="form-check-label" for="radio1">
-                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="pengiriman-langsung">JNE Standar
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label" for="radio2">
-                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="ambil-di-toko">JNE Express
-                            </label>
-                        </div>     
-                        <div class="form-check">
-                            <label class="form-check-label" for="radio1">
-                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="pengiriman-langsung">JNT Standar
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label" for="radio2">
-                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="ambil-di-toko">JNT Express
-                            </label>
-                        </div>  
-                    
                 </div>
                 <div align="center">
-                    <button type="submit" class="btn btn-primary col-md-5">
+                    <button type="keranjang" class="btn col-md-5 btn-keranjang">
                         Keranjang
                     </button>
-                    <button type="submit" class="btn btn-primary col-md-5">
+                    <button type="beli" class="btn col-md-5 btn-beli">
                         Beli
                     </button></form>
                 </div>
