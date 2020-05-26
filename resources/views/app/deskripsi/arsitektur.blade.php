@@ -105,7 +105,7 @@
                                 <div class="col-md-12 mb-3">
                                     <table><tr>
                                         <td class="harga" style="width: 50%">Harga</td>
-                                        <td class="jumlah_harga">500.000/minggu</td>
+                                        <td class="jumlah_harga">12.000.000/Desain</td>
                                     </tr></table><hr>
                                 </div>
                                 <div class="col-md-12 deskripsi_tukang">
