@@ -34,8 +34,10 @@
         </div>
         
         <div class="col-md-9">
-            <div class="jumbotron" style="background: #71b70b">
-                <h1 style="text-align: center;">Temukan Tanaman Hias di BitBit !</h1>
+            <div class="jumbotron bitbit-jumbotron" style="background-image: url(img/jumbotron.png);">
+                <div class="background-jumbotron">
+                    <h1 class="title-jumbotron" style="text-align: center;">Temukan Tanaman Hias di BitBit !</h1>
+                </div>
             </div>
 {{-- Bagian Produk --}}
             <div>
@@ -55,8 +57,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </div>
@@ -74,8 +76,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </div> 
@@ -119,8 +121,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div> 
                                 </div>
                             </div>
@@ -137,8 +139,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </a>
@@ -155,8 +157,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +183,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>(30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>(10)
                                     </div>
                                 </div>
                             </div>
@@ -199,8 +201,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </div> 
@@ -217,8 +219,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span> (30)
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span> (10)
                                     </div>
                                 </div>
                             </div>
