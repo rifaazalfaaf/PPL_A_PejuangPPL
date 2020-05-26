@@ -47,7 +47,7 @@
                         <a href="{{url('/produk')}}">
                             <div class="card">
                                 <div class="container">
-                                   <img class="card-img-top" src="public/img/lidahmertua.jpg" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px;"><br>
+                                   <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px;"><br>
                                     <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
                                     <h5 class="harga">RP. 10.000.000</h5>
                                     <label class="alamat" for="alamat">Jakarta Utara</label>
@@ -66,7 +66,7 @@
                         <a href="{{url('/produk')}}">
                             <div class="card">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%;margin-top:10px;margin-bottom: 20px;"><br>
+                                    <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%;margin-top:10px;margin-bottom: 20px;"><br>
                                     <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
                                     <h5 class="harga">RP. 10.000.000</h5>
                                     <label class="alamat" for="alamat">Jakarta Utara</label>
@@ -85,7 +85,7 @@
                         <a href="{{url('/produk')}}">
                             <div class="card">
                                 <div class="container">
-                                   <img class="card-img-top" src="{{asset('public/img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                   <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
                                     <h5 class="harga">RP. 10.000.000</h5>
                                     <label class="alamat" for="alamat">Jakarta Utara</label>
@@ -112,7 +112,7 @@
                         <a href="{{url('/tukang')}}">
                             <div class="card">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <img class="card-img-top" src="{{asset('img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Sukiman Rivero</span><br>
                                     <label class="alamat" for="alamat">Depok</label>
                                     <div class="rating">
@@ -130,7 +130,7 @@
                         <div class="card">
                             <a href="{{url('/tukang')}}">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <img class="card-img-top" src="{{asset('img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Sukiman Rivero</span><br>
                                     <label class="alamat" for="alamat">Depok</label>
                                     <div class="rating">
@@ -148,7 +148,7 @@
                         <a href="{{url('/tukang')}}">
                             <div class="card">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <img class="card-img-top" src="{{asset('img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Sukiman Rivero</span><br>
                                     <label class="alamat" for="alamat">Depok</label>
                                      <div class="rating">
@@ -174,7 +174,7 @@
                         <a href="{{url('/arsitektur')}}">
                             <div class="card">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <img class="card-img-top" src="{{asset('img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Sukiman Rivero</span><br>
                                     <label class="alamat" for="alamat">Depok</label>
                                     <div class="rating">
@@ -192,7 +192,7 @@
                         <a href="{{url('/arsitektur')}}">
                             <div class="card">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <img class="card-img-top" src="{{asset('img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Sukiman Rivero</span><br>
                                     <label class="alamat" for="alamat">Depok</label>
                                      <div class="rating">
@@ -210,7 +210,7 @@
                         <a href="{{url('/arsitektur')}}">
                             <div class="card">
                                 <div class="container">
-                                    <img class="card-img-top" src="{{asset('public/img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                    <img class="card-img-top" src="{{asset('img/tukangkebun.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                     <span class="nama-produk">Sukiman Rivero</span><br>
                                     <label class="alamat" for="alamat">Depok</label>
                                     <div class="rating">
@@ -235,7 +235,7 @@
                     <div class="col-md-6">
                         <div class="card">
                             <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/artikel.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                <img class="card-img-top" src="{{asset('img/artikel.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                 <label class="deskripsi" for="deskripsi">8 Cara Merawat Tanaman Efektif supaya Nggak Cepat Layu</label>
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                     <div class="col-md-6">
                         <div class="card">
                             <div class="container">
-                                <img class="card-img-top" src="{{asset('public/img/artikel.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
+                                <img class="card-img-top" src="{{asset('img/artikel.png')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
                                 <label class="deskripsi" for="deskripsi">8 Cara Merawat Tanaman Efektif supaya Nggak Cepat Layu</label>
                             </div>
                         </div>
