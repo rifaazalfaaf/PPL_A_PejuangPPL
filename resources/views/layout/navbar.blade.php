@@ -52,10 +52,16 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/profile')}}">
-                    <img class="rounded-circle" src="{{asset('img/profileuser.png')}}" style="width: 26.6px; height: 26px;" alt="">
-                    <label class="mt-1 pl-2" for="nama-user"  style="font-size: 18px;color: #548611;font-family: Poppins;">Agnes</label>
-                </a>
+                    <div class="dropdown mt-1" align="center">
+                        <img class="rounded-circle mt-1" src="{{asset('img/profileuser.png')}}" style="width: 26.6px; height: 26px;" alt="">
+                        <label class="mt-2 pl-2" for="nama-user"  style="font-size: 18px;color: #548611;font-family: Poppins;">Agnes</label>
+                        <div class="dropdown-content ">
+                            <a class="border border-bottom" href="{{url('/profile')}}" style="color:#707070;">Data Diri</a>
+                            <a class="border border-bottom" href="{{url('/buka_toko')}}" style="color:#707070;">Buka Toko</a>
+                            <a class="border border-bottom" href="{{url('/jual_jasa')}}" style="color:#707070;">Jual Jasa</a>
+                            <a class="border border-bottom" href="{{url('/login')}}" style="color:#707070;">Keluar Akun</a>
+                        </div>
+                    </div>
             </li>
         </ul>
     </div>
