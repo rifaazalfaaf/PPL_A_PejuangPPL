@@ -20,6 +20,11 @@
     text-align: left;
     color: #548611;
 }
+.logo-bitbit{
+    height: 45.7px;
+    width: 49px;
+}
+
 
 /*untuk page Home*/
 .pppl-home-title{
@@ -50,6 +55,18 @@
     letter-spacing: normal;
     text-align: left;
     color: #456c0a;
+}
+.harga-dihome{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffa737;
 }
 
 /*digunakan seluruh*/
@@ -92,7 +109,7 @@
     text-align: left;
     color: #707070;
 }
-.label-jumlah-produk{
+.label-jumlah-produk,.pembeitahuan{
     font-family: Poppins;
     font-size: 17px;
     font-weight: normal;
