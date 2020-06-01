@@ -9,6 +9,8 @@
 	Route::get('/artikel','ArtikelController@artikel');
 	Route::get('/profile','ProfileController@index');
 	Route::get('/tambah_data_diri','ProfileController@create');
+	Route::get('/buka_toko','HomeController@jasa');
+	Route::get('/tambah','HomeController@tambah');
 
 
 ?>
