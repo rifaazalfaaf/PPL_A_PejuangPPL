@@ -114,11 +114,11 @@ span.price {
     	<div class="container">
     		<div class="row">
 	        	<div class="col-md-10">
-	        		<h3 class="mt-3 Ulasan">Data Diri</h3>		
+	        	  	<h3 class="mt-3 Ulasan">Data Diri</h3>		
 	        	</div>
 	        	<div class="col-md-2">
 	        		</label class="labell">
-	        		<input type="submit" value="Edit" class="btn btn-submit">		
+	        		 <button class="btn btn-beli"></button>
 	        	</div>
 	        </div>
 	        <div class="row pl-4">
