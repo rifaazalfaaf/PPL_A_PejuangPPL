@@ -45,7 +45,17 @@ class HomeController extends Controller
     
     public function tambah()
     {
-        return view('app/jasa/tambahtoko');
+        return view('app/jasa/tambahjasa');
+    }
+
+    public function toko_produk()
+    {
+        return view('app/produk/buka_toko');
+    }
+    
+    public function tambahproduk()
+    {
+        return view('app/produk/tambahproduk');
     }
 
 }
