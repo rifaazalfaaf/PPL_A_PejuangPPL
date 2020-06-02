@@ -145,7 +145,7 @@
                     </div>
                 </div><br>
                 <div align="center">
-                    <button type="submit" class="btn btn-primary col-md-12">
+                    <button type="submit" class="btn col-md-12 btn-beli">
                         Gunakan Jasa
                     </button></form>
                 </div>

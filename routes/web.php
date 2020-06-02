@@ -14,13 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('app/home/index');
 });
+include("agnes.php");
+include("kaka.php");
+include("rifaa.php");
 
-Route::get('/pengguna', 'ControllerPengguna@index');
-Route::get('/produk', 'ControllerProduk@index');
-Route::get('/jasa', 'ControllerJasa@index');
-Route::get('/toko', 'ControllerToko@index');
+// Route::get('/pengguna', 'ControllerPengguna@index');
+Route::get('/buka_toko', 'ControllerProduk@index');
+// Route::get('/jasa', 'ControllerJasa@index');
+// Route::get('/toko', 'ControllerToko@index');
 
 Route::get('/pengguna/{id}', 'ControllerPengguna@show');
 Route::get('/produk/{id}', 'ControllerProduk@show');
@@ -32,8 +35,11 @@ Route::post('/produk/store','ControllerProduk@store');
 Route::post('/jasa/store','ControllerJasa@store');
 Route::post('/toko/store','ControllerToko@store');
 
+Route::get('/produk/edit/{id}','ControllerProduk@update');
+
+
 Route::post('/pengguna/update/{id}','ControllerPengguna@update');
-Route::post('/produk/update/{id}','ControllerProduk@update');
+Route::post('/produk/update','ControllerProduk@update');
 Route::post('/jasa/update/{id}','ControllerJasa@update');
 Route::post('/toko/update/{id}','ControllerToko@update');
 

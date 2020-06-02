@@ -118,7 +118,7 @@ span.price {
 	        	</div>
 	        	<div class="col-md-2">
 	        		</label class="labell">
-	        		 <button class="btn btn-beli"></button>
+	        		 <button class="btn btn-beli">Tambah atau edit</button>
 	        	</div>
 	        </div>
 	        <div class="row pl-4">

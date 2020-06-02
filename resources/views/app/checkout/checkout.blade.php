@@ -136,7 +136,7 @@
                             <table>
                                 <tr>
                                     <td class="harga" style="width: 100px;">Total</td>
-                                    <td class="jumlah_harga">Rp.10.000.000</td>
+                                    <td class="jumlah_harga">Rp.10.010.000</td>
                                 </tr>
                             </table>
                             <form action="/action_page.php">

@@ -17,8 +17,6 @@
 				<p>Bagi kalian yang senang berkebun, aktivitas dan cara merawat tanaman bisa menjadi hobi yang paling asyik untuk dijalani. Bayangkan, dimulai dari membeli benih, menanam, hingga merawat, pasti ada kepuasan tersendiri dari cara merawat tanaman yang efektif hingga menghasilkan kebun yang subur dan berbunga wangi. Pasti senang dong jika kamu tidak perlu repot ke pasar karena ada tanaman menghasilkan di rumah?</p>
 				<p>Namun, apa jadinya bila hobi berkebun malah membawa stres karena tanaman sering layu dan tidak berkembang dengan baik. Frustrasi, sedih dan putus asa bisa saja membuat kamu meninggalkan hobi berkebun. Bisa jadi, cara merawat tanaman kamu salah. Makanya, kamu perlu tahu cara merawat tanaman yang baik supaya hobi berkebun tetap berjalan, manfaat kesehatan dan produksi juga tetap bisa kamu nikmati. Yuk simak langsung delapan cara merawat tanaman yang paling efektif bersama Kania!</p>
 
-1. Melakukan Teknik Penyiraman Air yang Tepat
-
 			</div>
 		</div>
 	</div>
