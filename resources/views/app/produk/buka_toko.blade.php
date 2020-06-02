@@ -33,74 +33,25 @@
               </a>
             </div>
                     <div class="row">
+                        @foreach($produk as $p)
                         <div class="col-md-3 col-sm-4">
-                              <div class="card">
-                                  <div class="container">
-                                     <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px;"><br>
-                                      <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                      <h5 class="harga-dihome">RP. 10.000.000</h5>
-                                      <div class="row">
-                                        <div class="col-md-9">
-                                          <label class="alamat mt-0" for="alamat">Stok : 10</label> 
-                                        </div>
-                                        <div class="col-md-1">
-                                          <a href=""><span class="fas fa-edit"></span></a>
-                                        </div>
-                                      </div>
+                          <div class="card">
+                              <div class="container">
+                                  <img class="card-img-top" src="{{$p->foto_produk}}" alt="Lidah mertua" style="width:100%;margin-top:10px;margin-bottom: 20px;"><br>
+                                  <span class="nama-produk">{{$p->nama_produk}}{{-- Lidah Mertua / Sansivera lidah mertua --}}</span>
+                                  <h5 class="harga-dihome">{{$p->harga_produk}}</h5>
+                                  <div class="row">
+                                    <div class="col-md-9">
+                                      <label class="alamat mt-0" for="alamat">Stok : {{$p->stok_produk}}</label> 
+                                    </div>
+                                    <div class="col-md-1">
+                                      <a href="/produk/edit/{{$p->id}}"><span class="fas fa-edit"></span></a>
+                                    </div>
                                   </div>
                               </div>
+                          </div> 
                         </div>
-                        <div class="col-md-3 col-sm-4">
-                              <div class="card">
-                                  <div class="container">
-                                      <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%;margin-top:10px;margin-bottom: 20px;"><br>
-                                      <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                      <h5 class="harga-dihome">RP. 10.000.000</h5>
-                                      <div class="row">
-                                        <div class="col-md-9">
-                                          <label class="alamat mt-0" for="alamat">Stok : 10</label> 
-                                        </div>
-                                        <div class="col-md-1">
-                                          <a href=""><span class="fas fa-edit"></span></a>
-                                        </div>
-                                      </div>
-                                  </div>
-                              </div> 
-                        </div>
-                        <div class="col-md-3 col-sm-4">
-                              <div class="card">
-                                  <div class="container">
-                                     <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                      <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                      <h5 class="harga-dihome">RP. 10.000.000</h5>
-                                      <div class="row">
-                                        <div class="col-md-9">
-                                          <label class="alamat mt-0" for="alamat">Stok : 10</label> 
-                                        </div>
-                                        <div class="col-md-1">
-                                          <a href=""><span class="fas fa-edit"></span></a>
-                                        </div>
-                                      </div>
-                                  </div>
-                              </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4">
-                              <div class="card">
-                                  <div class="container">
-                                     <img class="card-img-top" src="{{asset('img/lidahmertua.jpg')}}" alt="Lidah mertua" style="width:100%; margin-top:10px;margin-bottom: 20px; "><br>
-                                      <span class="nama-produk">Lidah Mertua / Sansivera lidah mertua</span>
-                                      <h5 class="harga-dihome">RP. 10.000.000</h5>
-                                      <div class="row">
-                                        <div class="col-md-9">
-                                          <label class="alamat mt-0" for="alamat">Stok : 10</label> 
-                                        </div>
-                                        <div class="col-md-1">
-                                          <a href=""><span class="fas fa-edit"></span></a>
-                                        </div>
-                                      </div>
-                                  </div>
-                              </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
         </div>
