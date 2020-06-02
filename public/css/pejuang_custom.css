@@ -1,0 +1,356 @@
+/*untuk navbar*/
+.navbar-bitbit{
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    height: 80px;
+    margin-bottom: 30px;
+    padding: 0;
+
+}
+.navbar-brand-bitbit{
+    width: 49px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #548611;
+}
+.logo-bitbit{
+    height: 45.7px;
+    width: 49px;
+}
+.dropbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    size: 18px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: #707070;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{background-color: #ddd;}
+
+.dropdown:hover .dropdown-content{display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/*untuk page Home*/
+.pppl-home-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #6b8a3c;
+}
+.pppl-home{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.checked {
+  color:  #ffdd57;
+}
+.nama-produk, .deskripsi{
+    color:  #548611;
+}
+.background-jumbotron{
+    background-color: #a7e421;
+}
+.title-jumbotron{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
+}
+.harga-dihome{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffa737;
+}
+
+/*digunakan seluruh*/
+.bibit-card{
+    background-color: #ffffff;
+}
+
+/*Produk*/
+.nama-cs {
+    margin-bottom: 5px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
+}
+.nama_toko{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #548611;
+}
+.nama_produk{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.label-jumlah-produk,.pemberitahuan{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+/*untuk rating*/
+.rating{
+    margin-bottom: 10px;  
+}
+.nilai_rating{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.Ulasan {
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
+}
+.bitbit-profile-photo{
+    width: 51.3px;
+    height: 50px;
+}
+
+/*untuk jasa dan produk*/
+.gambar-tukang {
+    width: 300px;
+    height: 300.8px;
+}
+
+.deskripsi_tukang,.alamat_pengiriman,.deskripsi_jasa{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    text-align: justify;
+}
+.mahakarya{
+    width: 160px;
+    height: 160px;
+}
+
+/*untuk alamat*/
+.alamat{
+    margin-top: 15px;
+    margin-bottom: 10px;  
+    color: #707070; 
+}
+.alamat_deskripsi{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #548611;
+}
+.memilih_alamat {
+    width: 143px;
+    height: 30px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #66990c;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.button_alamat {
+    width: 113px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #548611;
+}
+.no_hp{
+    margin-bottom: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+/*untuk harga*/
+.harga,.metode_pengiriman{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.jumlah_harga{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
+}
+
+/*button*/
+.btn-keranjang{
+    width: 120px;
+    height: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    color: #548611;
+}
+.btn-beli{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #71b70b;
+    color: #ffffff;
+}
+
+/*checkout*/
+.Checkout {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #456c0a;
+}
+
+/*untuk footer*/
+.footer-style{
+    width: 1519px;
+    height: 220px;
+    background-color: #e4e4e4;
+}
+
+.title-footer,.pppl-sidebar-title {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #548611;
+}
+
+.bagian-title-footer {
+    color: #548611;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+}
+.logo-pembayaran{
+    width: 64.2px;
+    height: 20px;
+}
+.logo-pembayaran1{
+    width: 60px;
+    height: 40px;
+}
+.logo-pengiriman{
+    width: 49.5px;
+    height: 23px;
+}
