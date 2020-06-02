@@ -23,33 +23,34 @@
 		<div class="col-md-9">
 			<div class="card">
 				<div class="card bitbit-card rounded-0 border border-light">
-					<form action="/action_page.php" class="p-3">
+					<form action="{{url('/jasa/store')}}" class="p-3">
+						<div class="col-md-2">
+			        		<a href="{{url('/')}}"><i style="color:#71b70b;" class="fas fa-arrow-left"></i></a>
+			        	</div> 
 				    	<div class="container">
 			            	<div class="form-group">
 						      	<label class="harga" for="namalengkap">Nama Lengkap</label>
-						      	<input type="text" class="form-control" id="namalengkap" name="namalengkap">
+						      	<input type="text" class="form-control" id="namalengkap" name="jama_jasa">
 						    </div>
 							<div class="custom-control custom-radio custom-control-inline">
-						      	<input type="radio" class="custom-control-input" id="tukang" name="tukang">
+						      	<input type="radio" class="custom-control-input" id="tukang" name="kategori_jasa">
 						      	<label class="custom-control-label harga" for="tukang">Tukang Kebun</label>
 						    </div>
 						    <div class="custom-control custom-radio custom-control-inline">
-						      	<input type="radio" class="custom-control-input" id="arsitektur" name="arsitektur">
+						      	<input type="radio" class="custom-control-input" id="arsitektur" name="kategori_jasa">
 						      	<label class="custom-control-label harga" for="arsitektur">Arsitektur Taman</label>
 						    </div>
 						    <div class="form-group">
 						      	<label class="harga" for="deskripsi">Deskripsi Jasa</label>
-						      	<input type="text" class="form-control" id="deskripsi" name="deskripsi">
+						      	<input type="text" class="form-control" id="deskripsi" name="deskripsi_jasa">
 						    </div>
-						    <div class="form-group">
-						      	<label class="harga" for="gambar">Mahakarya</label><br>
-			            		<input type="file" class="form-control-file" id="gambar1" name="gambar1">
-			            		<input type="file" class="form-control-file" id="gambar2" name="gambar2">
-			            		<input type="file" class="form-control-file" id="gambar3" name="gambar3">
+							<div class="form-group">
+						      	<label class="harga" for="deskripsi">URL Mahakarya Jasa</label>
+						      	<input type="text" class="form-control" id="deskripsi" name="mahakarya">
 						    </div>
 			            	<div class="form-group mt-2">
 						      	<label class="harga" for="harga">Harga Produk</label>
-						      	<input type="text" class="form-control" id="harga" name="harga">
+						      	<input type="text" class="form-control" id="harga" name="harga_jasa">
 						    </div>
 				    	</div>
 						<div align="center">
