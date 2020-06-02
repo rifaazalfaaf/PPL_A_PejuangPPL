@@ -21,11 +21,9 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-<<<<<<< HEAD
-require __DIR__.'/vendor/autoload.php';
-=======
+
 require __DIR__.'/../vendor/autoload.php';
->>>>>>> development
+
 
 /*
 |--------------------------------------------------------------------------
@@ -39,11 +37,10 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-<<<<<<< HEAD
-$app = require_once __DIR__.'/bootstrap/app.php';
-=======
+
 $app = require_once __DIR__.'/../bootstrap/app.php';
->>>>>>> development
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -65,8 +62,6 @@ $response = $kernel->handle(
 
 $response->send();
 
-<<<<<<< HEAD
+
 $kernel->terminate($request, $response);
-=======
-$kernel->terminate($request, $response);
->>>>>>> development
+
